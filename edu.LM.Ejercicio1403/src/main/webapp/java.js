@@ -10,6 +10,7 @@ function conversion() {
 	else {
 		num *= -1;
 	}
-	document.getElementById("texto").innerHTML = (num);
+	document.getElementById("texto").innerHTML = ("Numero absoluto: " + num);
+	
 
 }
